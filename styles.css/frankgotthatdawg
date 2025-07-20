@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+} 
+
+p,
+li { color: purple;
+}
+.special {
+  color: orange;
+  font-weight: bold;
+}
+li em {
+  color: rebeccapurple;
+}
+h2 + p {
+  font-size: 200%;
+}
+a:link {
+  color: yellowgreen;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+}

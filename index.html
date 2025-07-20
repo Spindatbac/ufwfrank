@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+    content="franksblog is a site that describes the DAWGNESS of Frankline,how he realized 
+        it and eventually how you achieved it.You also get to know how to unveil the dawgness in  you." />
+    <meta
+  property="og:image"
+  content="https://codepen.io/diptajbasu/pen/pbYbWm" />
+
+   <meta
+  property="og:description"
+  content="Interact and learn about the DAWGNESS IN YOU with Frankline." />
+
+    <meta property="og:title" content="Frank Knows All" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>My Personal Blog</title>
+     <style>
+      input[type="checkbox"] {
+        appearance: none;
+      }
+
+      input[type="checkbox"] {
+        position: relative;
+        width: 1em;
+        height: 1em;
+        border: 1px solid rgb(240, 234, 234);
+        /* Adjusts the position of the checkboxes on the text baseline */
+        vertical-align: -2px;
+        /* Set here so that Windows' High-Contrast Mode can override */
+        color: green;
+      }
+
+      input[type="checkbox"]::before {
+        content: "✔";
+        position: absolute;
+        font-size: 1.2em;
+        right: 0;
+        top: -0.3em;
+        visibility: hidden;
+      }
+
+      input[type="checkbox"]:checked::before {
+        /* Use `visibility` instead of `display` to avoid recalculating layout */
+        visibility: visible;
+      }
+
+      input[type="checkbox"]:disabled {
+        border-color: black;
+        background: #8c5959;
+        color: rgb(243, 242, 242);
+      }
+        body {
+      font-family: ïnter, sans-serif
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #3e056de1;
+      color: #faf8f8e0;
+    }
+
+    header {
+      background-color: #7c0f86;
+      color: rgb(220, 234, 71);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+     nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    } 
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- The main header used across all the pages of our website -->
+
+    <header>
+      <h1>FRANKLINE'S PERRSONAL BLOG</h1>
+      <P>Football | Basketball | Music | Coding</P>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+    <a href="#">Football</a>
+    <a href="#">Basketball</a>
+    <a href="#">Music</a>
+    <a href="#">Coding</a>
+    <a href="#">Contact</a>
+
+      <!-- A Search form: another common non-linear
+           way to navigate through a site. -->
+
+      <form>
+        <input type="search" name="q" placeholder="Search query" />
+        <input type="submit" value="Go!" />
+      </form>
+    </nav>
+
+    <!-- Our page's main content -->
+    <main>
+      <section>
+      <h2>🏠 Welcome to My Blog</h2>
+      <p>Hi, I'm Frankline Kibet! This is my personal blog where I share my passion for <strong>football</strong>, <strong>basketball</strong>, <strong>music</strong>, and <strong>coding</strong>.</p>
+    </section>
+
+    <section>
+      <h2>⚽ Football – Manchester United</h2>
+      <p>I’m a big fan of <strong>Manchester United</strong>. Here, I post match reactions, player highlights, transfer updates, and my take on how the team is performing.
+       <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Man United Logo" width="100">
+      </p>
+    </section>
+
+    <section>
+      <h2>🏀 Basketball – LA Lakers</h2>
+      <p>As a <strong>Lakers</strong> supporter, you’ll find updates, game thoughts, and my opinions on the NBA season, players like LeBron, and the team's progress.</p>
+    </section>
+
+    <section>
+      <h2>🎧 Music Vibes</h2>
+      <p>From <strong>trap</strong>, <strong>rap</strong>, and <strong>hip hop</strong> to <strong>R&B</strong> and <strong>dancehall</strong>, I write about the music I love. Expect playlists, artist spotlights, and reviews of tracks that are on repeat.</p>
+    </section>
+
+    <section>
+      <h2>💻 Coding Corner</h2>
+      <p>I’m also into <strong>web development</strong> and tech. I’ll be sharing simple tutorials, tips, and cool projects I’m working on.</p>
+    </section>
+
+    <section id="contact">
+      <h2>📩 Let’s Connect</h2>
+      <p>Got a thought or want to share your opinion?Send a message below:</p>
+      <form action="https://formsubmit.co/frankkibet50@gmail.com" method="POST" >
+     <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">   
+    <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>  
+    </section>
+
+    <!-- The footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>&copy; 2025 Frankline Kibet. No fucks given.</p>
+    </footer>
+  </body>
+</html>
+
