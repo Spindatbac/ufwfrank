@@ -1,27 +1,103 @@
-h1 {
-  color: red;
-} 
+/* style.css - Main Blog Page */
 
-p,
-li { color: purple;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #944f4f;
+  color: #222;
+  line-height: 1.6;
 }
-.special {
-  color: orange;
+
+header {
+  background-color: #290202;
+  color: rgb(239, 232, 159);
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #4f0e0e;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #0a4d68;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
   font-weight: bold;
 }
-li em {
-  color: rebeccapurple;
-}
-h2 + p {
-  font-size: 200%;
-}
-a:link {
-  color: yellowgreen;
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1em;
 }
 
-a:visited {
-  color: green;
+form button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #0a4d68;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
 }
-a:hover {
-  text-decoration: none;
+
+form button:hover {
+  background-color: #097aa7;
 }
+
+footer {
+  text-align: center;
+  background-color: #0a0a0a;
+  color: rgb(197, 226, 93);
+  padding: 20px;
+  margin-top: 40px;
+}
+
